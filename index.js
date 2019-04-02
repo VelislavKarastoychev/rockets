@@ -205,9 +205,9 @@ function moveRockets() {
                 ctx.font = "15px Arial";
                 ctx.fillText("First stage", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 15);
                 ctx.fillText("Velocity:", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 30);
-                ctx.fillText(velocity[${k}].toPrecision(4), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 45);
+                ctx.fillText(velocity[${k}].toPrecision(7), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 45);
                 ctx.fillText("Fuel amount:", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 60);
-                ctx.fillText(fuelAmountsFirstStage[${k}].toPrecision(4), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 75);               
+                ctx.fillText(fuelAmountsFirstStage[${k}].toPrecision(7), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 75);               
                 if (fuelAmountsFirstStage[${k}] < 0) fuelAmountsFirstStage[${k}] === 0
 
             } else {
@@ -230,9 +230,9 @@ function moveRockets() {
                    ctx.font = "15px Arial";
                    ctx.fillText("Second stage", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 15);
                    ctx.fillText("Velocity:", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 30);
-                   ctx.fillText(velocity[${k}].toPrecision(4), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 45);
+                   ctx.fillText(velocity[${k}].toPrecision(7), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 45);
                    ctx.fillText("Fuel amount:", coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 60);
-                   ctx.fillText(fuelAmountsSecondStage[${k}].toPrecision(4), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 75);
+                   ctx.fillText(fuelAmountsSecondStage[${k}].toPrecision(7), coords[${k}][0] + coords[${k}][2], coords[${k}][1] - iconvelocity[${k}] + 75);
                    if (fuelAmountsSecondStage[${k}] < 0) fuelAmountsSecondStage[${k}] = 0;
                 }
             }         
