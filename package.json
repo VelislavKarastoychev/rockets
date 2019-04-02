@@ -1,0 +1,33 @@
+{
+  "name": "rockets",
+  "version": "1.0.0",
+  "description": "A rockets game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "rockets",
+    "spaceX",
+    "game",
+    "fuel"
+  ],
+  "author": "VSK",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.7.8",
+    "async-request": "1.2.0",
+    "canvas": "2.4.1",
+    "canvas-prebuilt": "2.0.0-alpha.14",
+    "d3": "5.9.2",
+    "d3-node": "2.1.0",
+    "express": "4.16.4",
+    "jsdom": "14.0.0",
+    "jsdom-no-contextify": "3.1.0",
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
